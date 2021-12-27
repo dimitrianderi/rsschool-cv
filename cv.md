@@ -14,6 +14,16 @@
 
 ----
 
+## Education
++ __Tashkent State Technical University__
+    + Automating and controlling of creation process
++ __Professional Computer College__
+    + Delphi - developer
++ __Proweb training center__
+    + Frontend-developer
+
+----
+
 ## About me
 
 I recently set myself a big goal: to become a top-notch web developer. 
@@ -37,6 +47,17 @@ So I hope that my dreams will come true. I will do everything for this.
 
 ----
 
+## Code Example
+
+```
+function multiply(a = 1, b = 2){
+  return a * b
+}
+
+multiply (5, 10)
+```
+----
+
 ## Experience
 
 __Company__ | __job duties__ | __years__
@@ -44,16 +65,6 @@ __Company__ | __job duties__ | __years__
 Technical University | System Administrator | 2015
 State Archives | System Administrator | 2016
 Sharq Telekom | Specialist | 2016 - now
-
-----
-
-## Education
-+ __Tashkent State Technical University__
-    + Automating and controlling of creation process
-+ __Professional Computer College__
-    + Delphi - developer
-+ __Proweb training center__
-    + Frontend-developer
 
 ----
 
