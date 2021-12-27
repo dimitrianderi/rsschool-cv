@@ -16,6 +16,12 @@
 
 ## About me
 
+I recently set myself a big goal: to become a top-notch web developer. 
+
+This specialty has been of interest to me for a long time. My education and work have always been associated with it-technologies, I also tried to independently study the front-end and back-end. 
+
+So I hope that my dreams will come true. I will do everything for this.
+
 ----
 
 ## My skills
@@ -31,6 +37,16 @@
 
 ----
 
+## Experience
+
+__Company__ | __job duties__ | __years__
+--- | :---: | ---:
+Technical University | System Administrator | 2015
+State Archives | System Administrator | 2016
+Sharq Telekom | Specialist | 2016 - now
+
+----
+
 ## Education
 + __Tashkent State Technical University__
     + Automating and controlling of creation process
@@ -40,6 +56,11 @@
     + Frontend-developer
 
 ----
+
+## Languages
+
++ Russian - native speaker;
++ English - Elementary (I want to level up to Upper Intermediate).
 
 [1]: (dimitrianderi@gmail.com)
 [2]: (https://github.com/demianandy)
