@@ -12,6 +12,11 @@
 + __TELEGRAM:__ [@dimitrianderi][3]
 + __INSTAGRAM:__ [@dimitri_anderi][4]
 
+[1]: (dimitrianderi@gmail.com)
+[2]: (https://github.com/demianandy)
+[3]: (https://t.me/dimitrianderi)
+[4]: (https://www.instagram.com/dimitri_anderi/)
+
 ----
 
 ## Education
@@ -72,8 +77,3 @@ Sharq Telekom | Specialist | 2016 - now
 
 + Russian - native speaker;
 + English - Elementary (I want to level up to Upper Intermediate).
-
-[1]: (dimitrianderi@gmail.com)
-[2]: (https://github.com/demianandy)
-[3]: (https://t.me/dimitrianderi)
-[4]: (https://www.instagram.com/dimitri_anderi/)
