@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: carnevalee;
+}
+
+body {
+    background-color: wheat;
+}
+
+.container {
+    width: 992px;
+    min-height: 100vh;
+    border-radius: 5px;
+    box-shadow: -5px 5px 15px #808080;
+    padding: 0;
+    overflow: hidden;
+    margin: 20px auto;
+
+}
+
+.top {
+    display: flex;
+    min-height: 100px;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img {
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    object-position: top;
+}
+
+.name {
+    display: flex;
+    width: 70%;
+    padding: 0 0 100px 0;
+    justify-content: end;
+    align-items: center;
+}
+
+.text {
+    width: 80%;
+}
+
+.name-text {
+    font-size: 60px;
+}
+
+.name span {
+    display: block;
+    margin: 12px 0;
+    width: 100%;
+    font-family: dubiel;
+    color: white;
+    background: #800000;
+    padding: 5px;
+}
+
+.name small {
+    font-family: dubiel;
+    font-style: italic;
+}
+
+.rewiev {
+    position: absolute;
+    width: 100%;
+    background: rgba(128, 0, 0, 0.3);
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    transition: all 1s ease;
+}
+
+.rewiev:hover {
+    background: rgba(128, 0, 0, 0.7);
+}
+
+.rewiev:hover .rewiev-left, 
+.rewiev:hover .rewiev-right {
+    opacity: 1;
+}
+
+.rewiev-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+    padding: 15px 15px 0 0;
+    color: white;
+    width: 30%;
+    text-shadow: 0 0 2px #808080;
+    opacity: 0.4;
+    transition: all 1s ease;
+}
+
+.rewiev-left .mark{
+    background: white;
+    width: 40px;
+    height: 60%;
+    justify-self: flex-start;
+    margin: 5px 20px 0 0;
+}
+
+.rewiev-left span{
+    display: flex;
+    font-size: 24px;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 70%;
+}
+
+.rewiev-right {
+    width: 70%;
+    padding: 15px;
+    font-family: dibiel;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 0 2px #808080;
+    opacity: 0.4;
+    transition: all 1s ease;
+}
