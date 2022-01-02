@@ -1,0 +1,104 @@
+/* MAIN */
+
+main {
+    display: flex;
+    min-height: 100px;
+}
+
+.info {
+    width: 30%;
+    background: #800000;
+    padding: 0 20px;
+}
+
+section {
+    margin-top: 25px;
+    padding: 0 10px 25px 10px;
+    border-bottom: 2px solid white;
+}
+
+section:last-child {
+    border: none;
+}
+
+.part_head {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+
+.part_content li,
+.part_content li a,
+.progress_num {
+    font-family: dibiel;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 auto;
+}
+
+
+.progress_num {
+    margin-left: 10px;
+    width: 20px;
+}
+
+.part_content li a:hover {
+    text-shadow: 0 0 5px black;
+}
+
+.part_content li a {
+    font-size: 18px;
+}
+
+progress {
+    display: flex;
+    align-items: flex-end;
+    -webkit-appearance: none;
+    border: none;
+    background: black;
+    height: 7px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+    width: 150px;
+  }
+  
+  ::-webkit-progress-inner-element {
+    border: 2px dashed white;
+  }
+  
+  ::-webkit-progress-bar {
+    background-color: orange;
+  }
+  
+  ::-webkit-progress-value {
+    background-color: lime;
+  }
+
+  ::-moz-progress-bar {
+    background-color: white;
+  }
+  
+  :indeterminate::-moz-progress-bar {
+    width: 10px;
+  }
+
+
+ li .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang {
+    font-family: dibiel;
+    font-weight: 700;
+    color: white;
+}

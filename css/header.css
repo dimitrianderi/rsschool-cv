@@ -142,29 +142,3 @@ body {
     text-align: justify;
     margin: auto;
 }
-
-/* MAIN */
-
-main {
-    display: flex;
-    min-height: 100px;
-}
-
-.info {
-    width: 30%;
-    background: #800000;
-    padding: 0 20px;
-}
-
-section {
-    margin-top: 25px;
-    padding: 0 10px;
-    border-bottom: 2px solid white;
-}
-
-.part_head {
-    color: white;
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 20px;
-}
