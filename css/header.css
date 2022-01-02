@@ -11,6 +11,8 @@ body {
     background-color: wheat;
 }
 
+/* HEADER */
+
 .container {
     width: 992px;
     min-height: 100vh;
@@ -19,7 +21,7 @@ body {
     padding: 0;
     overflow: hidden;
     margin: 20px auto;
-
+    position: relative;
 }
 
 .top {
@@ -44,7 +46,7 @@ body {
 .name {
     display: flex;
     width: 70%;
-    padding: 0 0 100px 0;
+    padding: 0 0 110px 0;
     justify-content: end;
     align-items: center;
 }
@@ -76,7 +78,7 @@ body {
     position: absolute;
     width: 100%;
     background: rgba(128, 0, 0, 0.3);
-    height: 100px;
+    height: 110px;
     bottom: 0;
     display: flex;
     transition: all 1s ease;
@@ -123,11 +125,46 @@ body {
 
 .rewiev-right {
     width: 70%;
-    padding: 15px;
     font-family: dibiel;
     color: white;
     font-weight: 700;
     text-shadow: 0 0 2px #808080;
     opacity: 0.4;
     transition: all 1s ease;
+    display: flex;
+}
+
+
+.rewiev-right p {
+    width: 90%;
+    font-family: dibiel;
+    justify-content: stretch;
+    text-align: justify;
+    margin: auto;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    min-height: 100px;
+}
+
+.info {
+    width: 30%;
+    background: #800000;
+    padding: 0 20px;
+}
+
+section {
+    margin-top: 25px;
+    padding: 0 10px;
+    border-bottom: 2px solid white;
+}
+
+.part_head {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
