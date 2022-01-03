@@ -15,19 +15,31 @@ nav {
     align-items: center;
 }
 
-nav .link {
-    font-family: dibiel;
-    color: white;
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
     transition: all 0.5s ease;
     display: flex;
     align-items: center;
     border-right: 1px solid white;
-    padding-right: 25px;
+    padding: 0 25px;
 }
 
-nav .link:last-child {
+nav ul li .link {
+    font-family: dibiel;
+    color: white;
+}
+
+nav li:first-child {
+    padding-left: 0;
+}
+
+nav li:last-child {
     border: none;
-    padding: 0;
+    padding-right: 0;
 }
 
 nav .link:hover {
