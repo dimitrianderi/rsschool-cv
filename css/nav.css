@@ -10,6 +10,28 @@ nav {
     background: #800000;
     cursor: pointer;
     transition: all 1s ease;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .link {
+    font-family: dibiel;
+    color: white;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid white;
+    padding-right: 25px;
+}
+
+nav .link:last-child {
+    border: none;
+    padding: 0;
+}
+
+nav .link:hover {
+    text-shadow: 0 0 5px black;
 }
 
 nav:hover {

@@ -15,7 +15,7 @@ body {
 
 .container {
     width: 992px;
-    min-height: 100vh;
+    min-height: 100px;
     border-radius: 5px;
     box-shadow: -5px 5px 15px #808080;
     padding: 0;
@@ -46,7 +46,7 @@ body {
 .name {
     display: flex;
     width: 70%;
-    padding: 0 0 110px 0;
+    padding: 0 0 100px 0;
     justify-content: end;
     align-items: center;
 }
@@ -77,15 +77,15 @@ body {
 .rewiev {
     position: absolute;
     width: 100%;
-    background: rgba(128, 0, 0, 0.3);
-    height: 110px;
+    background: rgba(0, 0, 0, 0.3);
+    min-height: 10px;
     bottom: 0;
     display: flex;
     transition: all 1s ease;
 }
 
 .rewiev:hover {
-    background: rgba(128, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .rewiev:hover .rewiev-left, 
@@ -98,7 +98,7 @@ body {
     flex-direction: column;
     justify-content: start;
     align-items: flex-end;
-    padding: 15px 15px 0 0;
+    padding: 15px 15px 15px 0;
     color: white;
     width: 30%;
     text-shadow: 0 0 2px #808080;
@@ -124,6 +124,8 @@ body {
 }
 
 .rewiev-right {
+    display: flex;
+    padding: 15px;
     width: 70%;
     font-family: dibiel;
     color: white;
@@ -131,14 +133,16 @@ body {
     text-shadow: 0 0 2px #808080;
     opacity: 0.4;
     transition: all 1s ease;
-    display: flex;
 }
 
 
 .rewiev-right p {
-    width: 90%;
     font-family: dibiel;
     justify-content: stretch;
     text-align: justify;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 15px;
 }

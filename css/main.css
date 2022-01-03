@@ -43,6 +43,9 @@ section:last-child {
     margin: 0 0 auto;
 }
 
+.part_content li {
+  margin-top: 10px;
+}
 
 .progress_num {
     margin-left: 10px;
@@ -70,16 +73,12 @@ progress {
     width: 150px;
   }
   
-  ::-webkit-progress-inner-element {
-    border: 2px dashed white;
-  }
-  
   ::-webkit-progress-bar {
-    background-color: orange;
+    background-color: black;
   }
   
   ::-webkit-progress-value {
-    background-color: lime;
+    background-color: white;
   }
 
   ::-moz-progress-bar {
