@@ -76,6 +76,20 @@
                             </div>
                         </li>
                         <li>
+                            PHP:
+                            <div class="content"> 
+                                <progress class="progress" value="0" max="100" data-current="65"></progress>
+                                <span class="progress_num">0</span>
+                            </div>
+                        </li>
+                        <li>
+                            Laravel:
+                            <div class="content"> 
+                                <progress class="progress" value="0" max="100" data-current="50"></progress>
+                                <span class="progress_num">0</span>
+                            </div>
+                        </li>
+                        <li>
                             Git:
                             <div class="content"> 
                                 <progress class="progress" value="0" max="100" data-current="50"></progress>
@@ -134,7 +148,7 @@
                                 <span class="named"></span> 
                             </div>
                             <div class="school_prof">
-                                <span class="type">PROWEB</span> <br>
+                                <span class="type">Training Center PROWEB</span> <br>
                                 <span class="named">Front-end developer</span>
                             </div>
                         </li>
@@ -142,6 +156,30 @@
                 </section>
                 <section class="no_line">
                     <h2 class="part_head">CODE EXAMPLE</h2>
+                    <pre>
+    function move() {
+        for (let i = 0; i < progress.length; i++) {
+            let start = 0;
+            let interval = setInterval(() => {
+                progress[i].value = start;
+                let number = progress[i].dataset.current;
+                progress_number[i].innerHTML = start + '%';
+                start++;
+                if (start > number) {
+                    clearInterval(interval);
+                }
+            }, 10);
+        }
+    }</pre>
+                </section>
+                <section class="no_line">
+                        <h2 class="part_head">PROJECTS</h2>
+                        <ul class="portfolio">
+                            <li><a target="_blanc" href="" class="desc">Сайт об Африке</a><img src="./project3.jpg" alt="Africa"></li>
+                            <li><a target="_blanc" href="http://portfel.mcdir.ru/" class="desc">Портфолио копирайтера</a><img src="./project2.jpg" alt="Africa"></li>
+                            <li><a target="_blanc" href="http://corals.mcdir.ru/" class="desc">Интернет-магазин</a><img src="./project3.jpg" alt="Africa"></li>
+                            <li><a target="_blanc" href="" class="desc">Новостной блог</a><img src="./project3.jpg" alt="Africa"></li>
+                        </ul>
                 </section>
             </div>
         </main>

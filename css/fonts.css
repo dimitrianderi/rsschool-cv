@@ -10,3 +10,8 @@
     font-weight: 300;
 }
 
+@font-face{
+    font-family: 'monaco';
+    src: url('../fonts/Monaco/Monaco.ttf');
+    font-weight: 300;
+}
