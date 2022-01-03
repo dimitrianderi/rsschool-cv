@@ -13,7 +13,7 @@
 + __INSTAGRAM:__ [@dimitri_anderi][4]
 
 [1]: (dimitrianderi@gmail.com)
-[2]: (https://github.com/demianandy)
+[2]: (https://github.com/dimitrianderi)
 [3]: (https://t.me/dimitrianderi)
 [4]: (https://www.instagram.com/dimitri_anderi/)
 
