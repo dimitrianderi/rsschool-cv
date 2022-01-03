@@ -11,6 +11,18 @@ body {
     background-color: wheat;
 }
 
+
+::-webkit-scrollbar{
+    width: 4px;
+    background: wheat;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #800000;
+    border-radius: 10px;
+    width: 3px;
+}
+
 /* HEADER */
 
 .container {
