@@ -192,6 +192,7 @@ pre {
 
 .portfolio li {
   display: flex;
+  height: 160px;
   width: 47%;
   margin-bottom: 25px;
   position: relative;
